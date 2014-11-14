@@ -1,0 +1,22 @@
+{
+  "name": "queue",
+  "description": "Task runner",
+  "version": "0.1.0",
+  "author": "Mihai Potra <mike@mpotra.com>",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/mpotra/queue"
+    },
+  "engines": {
+      "node": ">= 0.10.0"
+    },
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/mpotra/queue/issues"
+    },
+  "homepage": "https://github.com/mpotra/queue",
+  "main": "index.js",
+  "keywords": ["queue", "task", "async"]
+}
