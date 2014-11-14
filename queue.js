@@ -1,6 +1,6 @@
 var process_nextTick = (process && process.nextTick ? process.nextTick : function (fn) { fn(); });
 
-var Queue = function Queue() {
+var Queue = module.exports = function Queue() {
 
   Queue.init(this);
   
